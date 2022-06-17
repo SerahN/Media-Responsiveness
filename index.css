@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-attachment: fixed;
+}
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.div1{
+    padding: 2cm;
+    width: 50%;
+} 
+.div1 h2{
+color: white
+}
+.div1 p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.div2a{
+    background-color: rgb(10, 146, 176);
+    padding: 2cm;
+    width: 50%;
+}
+.div2b{
+    background-color: white;
+    padding: 2cm;
+    width: 50%;
+}
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*transition: background-color: 300ms;*/
+    padding: 2cm;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+}
