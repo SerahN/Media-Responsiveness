@@ -108,19 +108,16 @@ main {
 .div2b1c{
     border: 1px solid var(--Blue);
 }
-.div2b1:focus , .div2b1c:focus, .div2b1b:focus{
+.div2b1:active , .div2b1c:active, .div2b1b:active{
     outline: none;
     border: 2px solid var(--Red);
     background-image: url("./icon-error.svg");
     background-repeat: no-repeat no-repeat;
     background-position: center right;
 }
-input:focus::placeholder {
+input:active::placeholder {
     color: transparent;
-  }
-.div2b1b input:placeholder-shown:focus {
-    content: "email@example/com";
-  }
+}
 button{
     background-color: var(--Green);
     color: white;
