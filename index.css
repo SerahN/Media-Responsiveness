@@ -133,7 +133,7 @@ button{
     color: red;
 }
 /*FOR MOBILE*/
-@media screen and (min-width:375px, max-width:692px){
+@media only screen and (min-width:375px) and (max-width:692px){
     body{
         background-image: url("./bg-intro-mobile.png");
     }
